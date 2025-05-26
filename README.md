@@ -46,7 +46,7 @@ Java Class Breakdown
 
 Sample Working Credentials for Registration
 
-Use the following credentials to register successfully:
+Use the following example credentials to register successfully:
 
 ```text
 Username: ab_c
