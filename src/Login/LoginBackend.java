@@ -12,12 +12,10 @@ public class LoginBackend {
     }
 
     public boolean checkPasswordComplexity(String password) {
-        // At least 8 characters, 1 capital letter, 1 digit, and 1 special character
         return password.matches("^(?=.*[A-Z])(?=.*\\d)(?=.*[!@#$%^&*()_+\\-=]).{8,}$");
     }
 
     public boolean checkCellPhoneNumber(String cell) {
-        // Matches +27 followed by exactly 9 digits (South African format)
         return cell.matches("^\\+27\\d{9}$");
     }
 
